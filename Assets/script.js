@@ -54,7 +54,14 @@ var questions = [
     {
         question: 'What styles your code?',
         choice1: 'CSS',
-        choice2:
+        choice2: 'HTML',
+        choice3: 'JS',
+        choice4: 'DB',
+        answer: 1,
+    },
+    {
+        question: 'What can you use for Databases?',
+        choices
     }
 
 ]
