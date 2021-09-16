@@ -35,5 +35,9 @@ var questions = [
         choice4: 'Python',
         answer: 3,
     },
+    {
+        question:'What are people who write computer code called?',
+        
+    }
 
 ]
