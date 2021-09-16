@@ -44,6 +44,14 @@ var questions = [
         answer: 2,
     },
     {
+       question: 'Resolving errors in a program is known as...',
+       choice1: 'Error Checking',
+       choice2: 'Refixing',
+       choice3: 'Debugging',
+       choice4: 'Constructing',
+       answer: 3,
+    },
+    {
         
     }
 
