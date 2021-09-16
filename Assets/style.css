@@ -61,6 +61,13 @@ body {
     border:solid,gray, 5px;
 }
 
+#start {
+    margin:auto;
+    margin-top: 100px;
+    text-align: center;
+    display:flex;
+}
+
 .quiz{
 
 }
