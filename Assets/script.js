@@ -9,3 +9,9 @@ var acceptAnswer = true;
 var score = 0;
 var questionCounter = 0;
 var availableQuestions = [];
+
+var questions = [
+    {
+        
+    }
+]
