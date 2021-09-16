@@ -67,8 +67,11 @@ var questions = [
         choice4: 'CSS',
         answer: 2,
     }
-
 ]
 
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 7
+
+startGame = () => {
+    
+}
