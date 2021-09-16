@@ -37,6 +37,10 @@ var questions = [
     },
     {
         question:'What are people who write computer code called?',
+        choice1: 'Professors',
+        choice2: 'Programmers',
+        choice3: 'Crytographers',
+        choice4: 'Nerds',
         
     }
 
