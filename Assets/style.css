@@ -51,6 +51,16 @@ body {
     border:solid,gray, 5px;
 }
 
+#timer {
+    display:flex;
+    margin-top: 0%;
+    color:slategrey;
+    background-color:springgreen;
+    padding: 10px;
+    border-radius: 20px;
+    border:solid,gray, 5px;
+}
+
 .quiz{
 
 }
