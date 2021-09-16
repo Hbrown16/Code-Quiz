@@ -29,7 +29,11 @@ var questions = [
     },
     {
         question: 'Which of these is not a programming language?',
-        
-    }
+        choice1: 'Ruby',
+        choice2: 'Java',
+        choice3: 'Turbo',
+        choice4: 'Python',
+        answer: 3,
+    },
 
 ]
