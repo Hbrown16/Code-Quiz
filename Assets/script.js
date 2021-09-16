@@ -61,7 +61,12 @@ var questions = [
     },
     {
         question: 'What can you use for Databases?',
-        choices
+        choice1: 'Node',
+        choice2: 'MYSQL',
+        choice3: 'Java',
+        choice4: 'CSS',
+        answer: 2,
     }
 
 ]
+
