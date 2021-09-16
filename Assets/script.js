@@ -101,7 +101,12 @@ getNewQuestion = () => {
 answer.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptAnswer) return
-
         
+        acceptAnswer = false
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChioce.dataset['number']
+
+        let classtoApply = selectedAnswer == currentQuestion.answer ? 'correct' :
+        'incorrect'
     })
 })
