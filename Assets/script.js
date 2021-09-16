@@ -156,5 +156,7 @@ function timer() {
     },1000);
 }
 function displayMessage() {
-    
+    alert("OUT OF TIME")
+    localStorage.setItem('mostRecentScore', score)
+    document.location.assign('game.html')
 }
