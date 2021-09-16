@@ -81,6 +81,8 @@ startGame = () => {
 
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTION) {
-    localStorage
+    localStorage.setItem('mostRecentScore', score)
+
+    return document.location.assign('game.html')
     }
 }
