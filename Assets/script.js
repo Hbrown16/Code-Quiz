@@ -73,5 +73,8 @@ const SCORE_POINTS = 100
 const MAX_QUESTIONS = 7
 
 startGame = () => {
-    
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions]
+    getNewQuestion()
 }
