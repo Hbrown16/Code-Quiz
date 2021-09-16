@@ -3,7 +3,20 @@ html {
 }
 
 body {
-margin:0;
+    margin:0;
+}
+
+.bg {
+    animation:slide 4s ease-in-out infinite alternate;
+    background-image: linear-gradient()
+}
+
+.bg-bg2{
+
+}
+
+.bg-bg3{
+
 }
 .nav{
 
@@ -35,14 +48,3 @@ margin:0;
 
 }
 
-.bg{
-
-}
-
-.bg-bg2{
-
-}
-
-.bg-bg3{
-
-}
