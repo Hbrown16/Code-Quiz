@@ -41,6 +41,9 @@ var questions = [
         choice2: 'Programmers',
         choice3: 'Crytographers',
         choice4: 'Nerds',
+        answer: 2,
+    },
+    {
         
     }
 
