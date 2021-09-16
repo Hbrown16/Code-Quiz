@@ -1,3 +1,5 @@
+const { start } = require("@popperjs/core");
+
 var timerEL = document.getElementById("timer");
 var startButton = document.getElementById("start");
 var scoreBoard = document.getElementsByClassName('scores');
@@ -129,5 +131,8 @@ incrementScore = num => {
 startButton.addEventListener("click", startQuiz);
 
 function startQuiz () {
-    
+    timer ();
+    startGame();
+    start.style.display="none";
+    quizContainer.style.display="block";
 }
