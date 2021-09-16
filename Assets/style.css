@@ -135,7 +135,10 @@ form .option p {
     cursor:pointer;
     justify-self: stretch;
 }
-for
+form .option:hover {
+    background-color:mediumvioletred;
+    font-size: 25px;
+}
 
 .results{
 
