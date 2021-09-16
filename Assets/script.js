@@ -89,5 +89,9 @@ getNewQuestion = () => {
     currentQuestion = availableQuestions[questionIndex]
     question.innerText = currentQuestion.question
 
-    answer
+    answers.forEach(choice => {
+        const number = choice.dataset['number']
+        choice.innerText = currentQuestion['choice'+ number]
+    })
+    
 }
