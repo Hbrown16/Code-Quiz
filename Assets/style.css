@@ -44,11 +44,12 @@ body {
 .TopScores {
     display:flex;
     margin-top: 0%;
-    color:coral;
-    background-color:cornflowerblue;
+    color:rgb(255, 0, 0);
+    background-color:rgba(0, 0, 0, 0.568);
     padding: 10px;
     border-radius: 20px;
     border:solid,gray, 5px;
+    font-style: italic;
 }
 
 #timer {
