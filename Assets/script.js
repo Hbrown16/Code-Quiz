@@ -143,6 +143,15 @@ function timer() {
         if (timeLeft > 1) {
             timerEL.textContent = 'Time' + timeLeft;
             timeLeft --;
-        } else if
-    })
+        } else if (timeLeft === 1) {
+            timerEL.textContent = 'Time' = timeLeft;
+            timeLeft--;
+        }else {
+            timerEL.textContent = '';
+
+            clearInterval(timeInterval);
+
+            displayMessage();
+        }
+    },1000)
 }
