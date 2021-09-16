@@ -18,8 +18,9 @@ body {
     z-index:-1;
 }
 
-.bg-bg2{
-
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration: 4s;
 }
 
 .bg-bg3{
