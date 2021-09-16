@@ -140,6 +140,9 @@ function startQuiz () {
 function timer() {
     var timeLeft = 30;
     var timeInterval = setInterval(function() {
-        
+        if (timeLeft > 1) {
+            timerEL.textContent = 'Time' + timeLeft;
+            timeLeft --;
+        } else if
     })
 }
