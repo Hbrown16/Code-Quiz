@@ -108,5 +108,10 @@ answer.forEach(choice => {
 
         let classtoApply = selectedAnswer == currentQuestion.answer ? 'correct' :
         'incorrect'
+
+        if(classtoApply === 'correct') {
+            incrementScore(SCORE_POINTS)
+        }
+        
     })
 })
