@@ -74,6 +74,15 @@ body {
     padding:40px;
 }
 
+#start {
+    transition-duration: 0.4s;
+}
+
+#start:hover {
+    background-color:limegreen;
+    color:linen;
+}
+
 .quiz{
 
 }
