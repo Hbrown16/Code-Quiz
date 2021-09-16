@@ -9,6 +9,13 @@ body {
 .bg {
     animation:slide 4s ease-in-out infinite alternate;
     background-image: radial-gradient(circle, rgba(126,5,255,1) 0%, rgba(6,6,245,1) 46%, rgba(0,212,255,1) 100%);
+    bottom:0;
+    left:-50%;
+    opacity: 0.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
 }
 
 .bg-bg2{
