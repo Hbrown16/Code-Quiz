@@ -4,3 +4,5 @@ var scoreBoard = document.getElementsByClassName('scores');
 var scoreText = document.getElementById('score-count');
 var question = document.querySelector('#question');
 var answers = Array.from(document.querySelectorAll('.answer-text'));
+var currentQuestion = {};
+var acceptAnswer = true;
