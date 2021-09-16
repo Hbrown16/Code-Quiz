@@ -6,3 +6,6 @@ var question = document.querySelector('#question');
 var answers = Array.from(document.querySelectorAll('.answer-text'));
 var currentQuestion = {};
 var acceptAnswer = true;
+var score = 0;
+var questionCounter = 0;
+var availableQuestions = [];
