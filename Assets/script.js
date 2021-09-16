@@ -85,4 +85,6 @@ getNewQuestion = () => {
 
     return document.location.assign('game.html')
     }
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length)
+    
 }
