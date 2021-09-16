@@ -148,6 +148,12 @@ form .submit_button button {
     width:100%;
     margin-top:20px;
     padding:10px;
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    background-color: yellow;
+    border:none;
+    cursor:pointer;
+    transition: 0.3s ease background-color;
 }
 
 .results{
