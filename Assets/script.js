@@ -126,3 +126,8 @@ incrementScore = num => {
     scoreText.innerText = score
 }
 
+startButton.addEventListener("click", startQuiz);
+
+function startQuiz () {
+    
+}
