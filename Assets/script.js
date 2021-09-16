@@ -153,5 +153,8 @@ function timer() {
 
             displayMessage();
         }
-    },1000)
+    },1000);
+}
+function displayMessage() {
+    
 }
