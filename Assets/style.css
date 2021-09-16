@@ -140,6 +140,10 @@ form .option:hover {
     font-size: 25px;
 }
 
+form .option input[type="radio"]:checked +p {
+    color:orangered;
+}
+
 .results{
 
 }
