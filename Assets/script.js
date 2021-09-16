@@ -12,6 +12,14 @@ var availableQuestions = [];
 
 var questions = [
     {
-        
+      question: 'What tag is used to define an image-or add an image to an HTML page?',
+      choice1: '<img>',
+      choice2: '<table>',
+      choice3: '<div>',
+      choice4: '<a>',
+      answer: 1, 
+    },
+    {
+
     }
 ]
