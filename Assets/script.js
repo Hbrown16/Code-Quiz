@@ -52,7 +52,9 @@ var questions = [
        answer: 3,
     },
     {
-        
+        question: 'What styles your code?',
+        choice1: 'CSS',
+        choice2:
     }
 
 ]
