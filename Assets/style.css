@@ -156,21 +156,7 @@ form .submit_button button {
     transition: 0.3s ease background-color;
 }
 
-.results{
-
-}
-.question{
-    
-}
-
-.all-options{
-
-}
-.option{
-
-}
-
-.answer{
-
+form .submit_button button:hover {
+    background-color: tomato;
 }
 
