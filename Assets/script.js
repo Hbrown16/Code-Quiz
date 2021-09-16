@@ -21,6 +21,11 @@ var questions = [
     },
     {
         question: 'What are the CSS properties that are used to add space around sections of content?',
-        
-    }
+        choice1: 'spacing',
+        choice2: 'cleaner',
+        choice3: 'break',
+        choice4: 'padding',
+        answer: 4,
+    },
+    
 ]
