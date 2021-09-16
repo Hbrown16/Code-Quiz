@@ -109,6 +109,10 @@ section {
     justify-content: flex-end;
 }
 
+.quiz .results #score-count{
+    margin-left: 10px;
+}
+
 .results{
 
 }
