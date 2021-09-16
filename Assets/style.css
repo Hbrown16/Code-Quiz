@@ -42,7 +42,13 @@ body {
 }
 
 .TopScores {
-    
+    display:flex;
+    margin-top: 0%;
+    color:coral;
+    background-color:cornflowerblue;
+    padding: 10px;
+    border-radius: 20px;
+    border:solid,gray, 5px;
 }
 
 .quiz{
