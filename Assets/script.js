@@ -136,3 +136,10 @@ function startQuiz () {
     start.style.display="none";
     quizContainer.style.display="block";
 }
+
+function timer() {
+    var timeLeft = 30;
+    var timeInterval = setInterval(function() {
+        
+    })
+}
