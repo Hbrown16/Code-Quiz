@@ -35,7 +35,10 @@ body {
     }
 }
 .nav {
-    
+    display:flex;
+    padding: 0.5em;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .TopScores{
