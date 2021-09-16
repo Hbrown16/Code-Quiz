@@ -113,6 +113,23 @@ section {
     margin-left: 10px;
 }
 
+form h1 {
+    font-size:1.6 rem;
+    margin-bottom: 3rem;
+}
+
+form .option {
+    font-size:1.2rem;
+    margin:10px;
+    padding:10px;
+    transition: 0.3 ease background-color;
+    border-radius:4px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-self:stretch;
+}
+
 .results{
 
 }
