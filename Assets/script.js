@@ -112,6 +112,12 @@ answer.forEach(choice => {
         if(classtoApply === 'correct') {
             incrementScore(SCORE_POINTS)
         }
-        
+        selectedChoice.parentElement.classList.remove(classtoApply)
+
+        setTimeout(() => {
+        selectedChoice.parentElement.classList.remove(classtoApply)
+        getNewQuestion()
+        },1000)
     })
 })
+
