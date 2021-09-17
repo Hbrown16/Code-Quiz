@@ -8,3 +8,14 @@ const highScores = json.parse(localStorage.getItem('highScores')) || []
 
 const MAX_HIGH_SCORES = 7
 
+finalScore.innerText = mostRecentScore
+
+saveHighScore = e => {
+    e.preventDefault()
+
+    const score = {
+        socre: mostRecentScore,
+        name:playerName.value
+    }
+    
+}
