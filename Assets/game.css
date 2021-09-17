@@ -57,6 +57,16 @@ body {
 a {
     color: snow;
 }
+
+.game-form {
+    border:solid;
+    background:slateblue;
+    opacity:10px;
+    padding:20px;
+    color:black;
+}
+
+
 .container{
 
 }
