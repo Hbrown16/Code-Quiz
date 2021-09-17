@@ -27,6 +27,7 @@ saveHighScore = e => {
 function dispData(){
     for(var i=0; i<highScores.length;i++){
         var li = document.createElement("li");
-        li.textContent
+        li.textContent = highScores[i].name + ": "+highScores[i].score;
+        
     }
 }
