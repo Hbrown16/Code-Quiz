@@ -23,11 +23,13 @@ saveHighScore = e => {
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
 }
-
+// highscore display//
 function dispData(){
     for(var i=0; i<highScores.length;i++){
         var li = document.createElement("li");
         li.textContent = highScores[i].name + ": "+highScores[i].score;
-        
+        document.getElementById("players").appendChild(li);
     }
 }
+
+dispData();
