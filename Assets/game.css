@@ -71,7 +71,19 @@ a {
     justify-content: center;
 }
 
+ul {
+    list-style-type: none;
+    font-size: 35px;
+    text-align:center;
+    position: relative;
+    margin:0;
+}
 
+#player {
+    border-radius: 10px;
+    padding:10px;
+    margin:5px;
+}
 .container{
 
 }
