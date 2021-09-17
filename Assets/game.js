@@ -17,5 +17,15 @@ saveHighScore = e => {
         socre: mostRecentScore,
         name:playerName.value
     }
-    
+    highScores.push(score)
+
+    disData();
+
+    localStorage.setItem('highScores', JSON.stringify(highScores));
+}
+
+function dispData(){
+    for(var i=0; i<highScores.length;i++){
+        var
+    }
 }
