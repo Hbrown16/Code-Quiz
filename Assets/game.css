@@ -51,6 +51,12 @@ body {
     justify-content: center;
     text-align: center;
 }
+.playagain:hover {
+    background-color:skyblue;
+}
+a {
+    color: snow;
+}
 .container{
 
 }
