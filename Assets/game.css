@@ -66,6 +66,11 @@ a {
     color:black;
 }
 
+#finalsocre {
+    display: flex;
+    justify-content: center;
+}
+
 
 .container{
 
