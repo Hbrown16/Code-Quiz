@@ -82,7 +82,7 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTION) {
+    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
     localStorage.setItem('mostRecentScore', score)
 
     return document.location.assign('game.html')
@@ -100,7 +100,7 @@ getNewQuestion = () => {
     acceptAnswer = true
 }
 
-answer.forEach(choice => {
+answers.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptAnswer) return
         
