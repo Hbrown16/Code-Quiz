@@ -92,7 +92,7 @@ section {
     justify-content: center;
 }
 
-.quiz{
+.quiz {
     padding: 50px 30px 30px 30px;
     margin: 25px;
     width: 600px;
@@ -104,12 +104,12 @@ section {
     transition: 0.3s ease background-color;
     overflow: hidden;
 }
-.quiz .results {
+.quiz.results {
     display:flex;
     justify-content: flex-end;
 }
 
-.quiz .results #score-count{
+.quiz.results #score-count{
     margin-left: 10px;
 }
 
