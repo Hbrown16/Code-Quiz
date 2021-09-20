@@ -1,11 +1,11 @@
-const { start } = require("@popperjs/core");
+//const { start } = require("@popperjs/core");
 
 var timerEL = document.getElementById("timer");
 var startButton = document.getElementById("start");
-var scoreBoard = document.getElementsByClassName('scores')
-var scoreText = document.getElementById('score-count')
-var question = document.querySelector('#question');
-var answers = Array.from(document.querySelectorAll('.answer-text'));
+var scoreBoard = document.getElementsByClassName('results')
+var scoreText = document.getElementById('count')
+var question = document.querySelector('#questions');
+var answers = Array.from(document.querySelectorAll('.answer'));
 var currentQuestion = {};
 var acceptAnswer = true;
 var score = 0;
@@ -106,7 +106,7 @@ answers.forEach(choice => {
         
         acceptAnswer = false
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChioce.dataset['number']
+        const selectedAnswer = selectedChoice.dataset['number']
 
         let classtoApply = selectedAnswer == currentQuestion.answer ? 'correct' :
         'incorrect'
@@ -114,7 +114,7 @@ answers.forEach(choice => {
         if(classtoApply === 'correct') {
             incrementScore(SCORE_POINTS)
         }
-        selectedChoice.parentElement.classList.remove(classtoApply)
+        selectedChoice.parentElement.classList.add(classtoApply)
 
         setTimeout(() => {
         selectedChoice.parentElement.classList.remove(classtoApply)
@@ -131,7 +131,7 @@ incrementScore = num => {
 startButton.addEventListener("click", startQuiz);
 
 function startQuiz () {
-    timer ();
+    timer();
     startGame();
     start.style.display="none";
     quizContainer.style.display="block";
@@ -144,7 +144,7 @@ function timer() {
             timerEL.textContent = 'Time' + timeLeft;
             timeLeft --;
         } else if (timeLeft === 1) {
-            timerEL.textContent = 'Time' = timeLeft;
+            timerEL.textContent = 'Time' + timeLeft;
             timeLeft--;
         }else {
             timerEL.textContent = '';
