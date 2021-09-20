@@ -138,7 +138,7 @@ function startQuiz () {
 }
 
 function timer() {
-    var timeLeft = 30;
+    var timeLeft = 45;
     var timeInterval = setInterval(function() {
         if (timeLeft > 1) {
             timerEL.textContent = 'Time' + timeLeft;
