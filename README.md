@@ -23,11 +23,11 @@ THEN I can save my initials and my score
 ```
 
 ## Links
-- [Deployed Link]()
+- [Deployed Link](https://hbrown16.github.io/Code-Quiz/)
 - [Github Link](https://github.com/Hbrown16/Code-Quiz)
 
 ## Description
 This assignment we used our knowledge of HTML, CSS, JAVA, and API to create a quiz to test our knowledge.
 
 ## Demo
-![quiz]()
+![quiz](./Assets/quiz.gif)
