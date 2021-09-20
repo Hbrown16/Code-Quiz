@@ -1,10 +1,10 @@
-var platerName = document.querySelector('#player')
+var playerName = document.querySelector('#player')
 var saveScoreBtn = document.querySelector('#saveScoreBtn')
 var finalScore = document.querySelector('#finalScore')
 var mostRecentScore = localStorage.getItem('mostRecentScore')
 var playAgain = document.getElementsByClassName('btn')
 
-const highScores = json.parse(localStorage.getItem('highScores')) || []
+const highScores = JSON.parse(localStorage.getItem('highScores')) || []
 
 const MAX_HIGH_SCORES = 7
 
@@ -14,12 +14,12 @@ saveHighScore = e => {
     e.preventDefault()
 
     const score = {
-        socre: mostRecentScore,
+        score: mostRecentScore,
         name:playerName.value
     }
     highScores.push(score)
 
-    disData();
+    dispData();
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
 }
@@ -28,7 +28,7 @@ function dispData(){
     for(var i=0; i<highScores.length;i++){
         var li = document.createElement("li");
         li.textContent = highScores[i].name + ": "+highScores[i].score;
-        document.getElementById("players").appendChild(li);
+        document.getElementById("contenders").appendChild(li);
     }
 }
 
